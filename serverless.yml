@@ -35,7 +35,7 @@ provider:
         - dynamodb:Deleteitem
       Resource: "arn:aws:dynamodb:us-east-1:*:*"
 
-function:
+functions:
   # Defines an HTTP API endpoint that calls the main function in create.js
   # - path: url path is /notes
   # - method: POST request
